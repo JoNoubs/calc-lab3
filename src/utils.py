@@ -18,3 +18,7 @@ def divide(n1, n2):
     if n2 == 0:
         return "Error: Division by zero is undefined."
     return n1 / n2
+
+
+def exponent(base, power):
+    return base ** power
